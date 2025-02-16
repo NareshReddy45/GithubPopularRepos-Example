@@ -1,0 +1,66 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual card styling */
+.item-card {
+  background-color: #f8f8ff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Avatar image */
+.url-image {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Repository heading */
+.heading {
+  color: #e73959;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Stars, Forks, Issues container */
+.count-direction {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+/* Icon image */
+.count-image {
+  height: 20px;
+  width: 20px;
+}
+
+/* Loader container */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Failure view container */
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.failure-image {
+  width: 300px;
+}
