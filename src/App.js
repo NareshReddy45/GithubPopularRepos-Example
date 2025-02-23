@@ -2,6 +2,8 @@ import './App.css'
 
 import GithubPopularRepos from './components/GithubPopularRepos'
 
-const App = () => <GithubPopularRepos />
+function App() {
+  return <GithubPopularRepos />
+}
 
 export default App

@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import Loader from 'react-loader-spinner'
+import {ThreeDots} from 'react-loader-spinner'
 import LanguageFilterItem from '../LanguageFilterItem'
 import RepositoryItem from '../RepositoryItem'
 import './index.css'
@@ -62,7 +62,7 @@ class GithubPopularRepos extends Component {
     if (isLoading) {
       return (
         <div className="loader-container" data-testid="loader">
-          <Loader type="ThreeDots" color="#0284c7" height={80} width={80} />
+          <ThreeDots color="#00BFFF" height={80} width={80} />
         </div>
       )
     }
